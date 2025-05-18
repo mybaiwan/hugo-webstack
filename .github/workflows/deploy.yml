@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # 监听 main 分支，你的主分支改成别的请调整
+      - master  # 监听 main 分支，你的主分支改成别的请调整
 
 jobs:
   build-deploy:
